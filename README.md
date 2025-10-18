@@ -4,6 +4,13 @@
 
 BankSpike AI Predictor is a deep learning system that predicts with 88% confidence whether a client will choose a term deposit. The system uses spiking neural networks (SNNs), a bio-inspired approach to neural computation that offers unique advantages for temporal pattern recognition.
 
+
+
+https://github.com/user-attachments/assets/dcf692c5-cf4d-472d-9b22-150868f812d7
+
+
+
+
 ## Background
 
 This project is based on research from the article "A data-driven approach to predict the success of bank telemarketing" published in Decision Support Systems.
