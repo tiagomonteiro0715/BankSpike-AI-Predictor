@@ -1,0 +1,41 @@
+{
+    "optimization_info": {
+        "n_trials": 3,
+        "best_trial_number": 0,
+        "optimization_date": "2025-10-15 11:34:06"
+    },
+    "best_hyperparameters": {
+        "learning_rate": 6.38362778772101e-05,
+        "adam_beta1": 0.8696679280772431,
+        "adam_beta2": 0.9980169341567128,
+        "batch_size": 32,
+        "hidden_sizes": [
+            256
+        ],
+        "lr_patience": 3,
+        "lr_factor": 0.20267435957747423,
+        "beta": 0.47196584568104916,
+        "threshold": 1.4284481225138923,
+        "num_steps": 7
+    },
+    "model_architecture": {
+        "num_inputs": 51,
+        "hidden_sizes": [
+            256
+        ],
+        "num_outputs": 2,
+        "total_parameters": 13826
+    },
+    "final_results": {
+        "best_dev_accuracy": 88.33222738332228,
+        "best_epoch": 4,
+        "test_accuracy": 88.30034280659073,
+        "test_loss": 0.23828249071912294
+    },
+    "data_info": {
+        "train_samples": 27126,
+        "dev_samples": 9042,
+        "test_samples": 9043,
+        "dataset": "Bank Marketing (UCI ML Repository ID: 222)"
+    }
+}

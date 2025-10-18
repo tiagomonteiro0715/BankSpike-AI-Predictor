@@ -1,0 +1,187 @@
+{
+    "column_transformer_info": {
+        "categorical_columns": [
+            "job",
+            "marital",
+            "education",
+            "default",
+            "housing",
+            "loan",
+            "contact",
+            "month",
+            "poutcome"
+        ],
+        "numerical_columns": [
+            "age",
+            "balance",
+            "day_of_week",
+            "duration",
+            "campaign",
+            "pdays",
+            "previous"
+        ]
+    },
+    "one_hot_encoder": {
+        "categories": [
+            [
+                "admin.",
+                "blue-collar",
+                "entrepreneur",
+                "housemaid",
+                "management",
+                "retired",
+                "self-employed",
+                "services",
+                "student",
+                "technician",
+                "unemployed",
+                NaN
+            ],
+            [
+                "divorced",
+                "married",
+                "single"
+            ],
+            [
+                "primary",
+                "secondary",
+                "tertiary",
+                NaN
+            ],
+            [
+                "no",
+                "yes"
+            ],
+            [
+                "no",
+                "yes"
+            ],
+            [
+                "no",
+                "yes"
+            ],
+            [
+                "cellular",
+                "telephone",
+                NaN
+            ],
+            [
+                "apr",
+                "aug",
+                "dec",
+                "feb",
+                "jan",
+                "jul",
+                "jun",
+                "mar",
+                "may",
+                "nov",
+                "oct",
+                "sep"
+            ],
+            [
+                "failure",
+                "other",
+                "success",
+                NaN
+            ]
+        ],
+        "feature_names": [
+            "job_admin.",
+            "job_blue-collar",
+            "job_entrepreneur",
+            "job_housemaid",
+            "job_management",
+            "job_retired",
+            "job_self-employed",
+            "job_services",
+            "job_student",
+            "job_technician",
+            "job_unemployed",
+            "job_nan",
+            "marital_divorced",
+            "marital_married",
+            "marital_single",
+            "education_primary",
+            "education_secondary",
+            "education_tertiary",
+            "education_nan",
+            "default_no",
+            "default_yes",
+            "housing_no",
+            "housing_yes",
+            "loan_no",
+            "loan_yes",
+            "contact_cellular",
+            "contact_telephone",
+            "contact_nan",
+            "month_apr",
+            "month_aug",
+            "month_dec",
+            "month_feb",
+            "month_jan",
+            "month_jul",
+            "month_jun",
+            "month_mar",
+            "month_may",
+            "month_nov",
+            "month_oct",
+            "month_sep",
+            "poutcome_failure",
+            "poutcome_other",
+            "poutcome_success",
+            "poutcome_nan"
+        ],
+        "handle_unknown": "ignore"
+    },
+    "standard_scaler": {
+        "mean": [
+            40.93621021432837,
+            1362.2720576850766,
+            15.80641879188693,
+            258.1630797814691,
+            2.763840658246887,
+            40.19782796222158,
+            0.5803233726305546
+        ],
+        "scale": [
+            10.618644604723631,
+            3044.7321561391027,
+            8.322384112145542,
+            257.5249641835511,
+            3.097986621285248,
+            100.12763863509116,
+            2.303415570447332
+        ],
+        "var": [
+            112.75561324142626,
+            9270393.902627468,
+            69.26207731009255,
+            66319.1071777393,
+            9.597521105662384,
+            10025.544018639399,
+            5.305723290179207
+        ],
+        "feature_names": [
+            "age",
+            "balance",
+            "day_of_week",
+            "duration",
+            "campaign",
+            "pdays",
+            "previous"
+        ]
+    },
+    "label_encoder": {
+        "classes": [
+            "no",
+            "yes"
+        ],
+        "class_mapping": {
+            "no": 0,
+            "yes": 1
+        }
+    },
+    "input_dimension": 51,
+    "preprocessing_date": "2025-10-15 11:13:05"
+}
