@@ -9,8 +9,6 @@ BankSpike AI Predictor is a deep learning system that predicts with 88% confiden
 https://github.com/user-attachments/assets/dcf692c5-cf4d-472d-9b22-150868f812d7
 
 
-
-
 ## Background
 
 This project is based on research from the article "A data-driven approach to predict the success of bank telemarketing" published in Decision Support Systems.
@@ -25,6 +23,13 @@ Reference: https://doi.org/10.1016/j.dss.2014.03.001
 * RESTful API service using FastAPI
 * Comprehensive preprocessing pipeline with saved parameters
 * Model persistence and versioning support
+
+
+## Why Spiking Neural Networks?
+
+
+Unlike traditional ANNs, SNNs communicate through discrete spike trains that encode temporal patterns in the data. For banking predictions involving time-dependent features (contact duration, days since last contact, campaign frequency), SNNs leverage spike timing. This way, SSNs capture these relationships while consuming 20-50x less energy per inference than equivalent deep ANNs. 
+
 
 ## Project Structure
 
