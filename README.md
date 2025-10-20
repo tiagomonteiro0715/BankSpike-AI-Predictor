@@ -231,13 +231,3 @@ The trained spiking neural network achieves 88% confidence in predicting term de
 ## License
 
 See LICENSE file for details.
-
-## Citation
-
-If you use this project in your research, please cite the original paper:
-
-```
-[Moro et al., 2014] S. Moro, P. Cortez and P. Rita. 
-A Data-Driven Approach to Predict the Success of Bank Telemarketing. 
-Decision Support Systems, Elsevier, 62:22-31, June 2014
-```
