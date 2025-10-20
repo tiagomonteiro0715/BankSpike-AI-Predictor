@@ -69,30 +69,8 @@ source env/bin/activate
 
 ### Install Dependencies
 
-**Core packages:**
-
 ```bash
-pip install -U torch snntorch scikit-learn ucimlrepo notebook ipykernel --no-cache-dir --verbose
-```
-
-**Additional packages for web services:**
-
-```bash
-pip install -U \
-  "optuna>=3.5" \
-  "streamlit>=1.31" \
-  "plotly>=5.18" \
-  "fastapi[standard]>=0.110" \
-  "uvicorn[standard]>=0.30" \
-  "pydantic>=2.6" \
-  "torch>=2.1" \
-  "snntorch>=0.9.1" \
-  "numpy>=1.24" \
-  "pandas>=2.1" \
-  "scikit-learn>=1.3" \
-  "ucimlrepo>=0.0.7" \
-  --no-cache-dir \
-  --verbose
+pip install -U "torch>=2.1" "snntorch>=0.9.1" "scikit-learn>=1.3" "ucimlrepo>=0.0.7" "notebook>=7.0" "ipykernel>=6.25" "optuna>=3.5" "streamlit>=1.31" "plotly>=5.18" "fastapi[standard]>=0.110" "uvicorn[standard]>=0.30" "pydantic>=2.6" "numpy>=1.24" "pandas>=2.1" --no-cache-dir --verbose
 ```
 
 ### Configure Jupyter Kernel
