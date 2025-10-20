@@ -1,5 +1,36 @@
 # BankSpike AI Predictor
 
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Video Demo](#video-demo)
+- [Background](#background)
+- [Features](#features)
+- [Why Spiking Neural Networks?](#why-spiking-neural-networks)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+  - [Create Virtual Environment](#create-virtual-environment)
+  - [Install Dependencies](#install-dependencies)
+  - [Configure Jupyter Kernel](#configure-jupyter-kernel)
+- [Usage](#usage)
+  - [Streamlit Web Application](#streamlit-web-application)
+  - [FastAPI Service](#fastapi-service)
+  - [Docker](#docker)
+  - [API Endpoints](#api-endpoints)
+- [Example API Requests](#example-api-requests)
+  - [Example 1: Married Admin Professional](#example-1-married-admin-professional)
+  - [Example 2: Single Technician](#example-2-single-technician)
+  - [Example 3: Divorced Blue-Collar Worker](#example-3-divorced-blue-collar-worker)
+  - [Example 4: Retired Client](#example-4-retired-client)
+  - [Example 5: Student](#example-5-student)
+  - [Example 6: Entrepreneur](#example-6-entrepreneur)
+- [Input Features](#input-features)
+- [Model Performance](#model-performance)
+- [Technologies Used](#technologies-used)
+- [License](#license)
+- [Citation](#citation)
+
 ## Overview
 
 BankSpike AI Predictor is a deep learning system that predicts with 88% confidence whether a client will choose a term deposit. The system uses spiking neural networks (SNNs), a bio-inspired approach to neural computation that offers unique advantages for temporal pattern recognition.
